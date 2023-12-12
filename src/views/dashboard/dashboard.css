@@ -1,0 +1,5 @@
+.tile{
+    height: 50vh !important;
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+}
