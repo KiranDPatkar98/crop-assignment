@@ -44,7 +44,7 @@ const Login = () => {
   return (
     <div className="login-page">
       <div className="container">
-        <h1 className="text-center mb-4">Welcome to Your App!</h1>
+        <h1 className="text-center mb-4">Login page</h1>
         <Form
           className="card p-3 mx-auto col-lg-5 col-md-12"
           onSubmit={formik.handleSubmit}
