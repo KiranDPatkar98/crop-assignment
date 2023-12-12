@@ -27,9 +27,9 @@ const Dashboard = () => {
     return record.crop_name.toLowerCase().includes(searchQuery.toLowerCase());
   });
 
-  const pageCount = Math.ceil(filteredRecords.length / perPage);
+  const pageCount = Math.ceil(records.length / perPage);
   const offset = currentPage * perPage;
-  const currentRecords = filteredRecords.slice(offset, offset + perPage);
+  const currentRecords = records.slice(offset, offset + perPage);
 
   useEffect(() => {
     fetchRecords();
